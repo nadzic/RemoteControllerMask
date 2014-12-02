@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scenario date="2014-11-26-10-47-06-633673">
+  <playlist id="18">
+    <maxlen>0</maxlen>
+    <lifetime>
+      <from_date></from_date>
+      <to_date></to_date>
+    </lifetime>
+    <timesegment id="20" cid="1" cname="PLAYLIST_EDITOR" order="2">
+      <length>
+        <from_seconds>-1</from_seconds>
+        <to_seconds>-1</to_seconds>
+      </length>
+      <slide id="56" pltsg="20" seq="57" name="TV Slovenija 1">
+        <period>120</period>
+        <schedule/>
+        <object id="227" sobj="65" date="2014-11-26-10-47-06-633673" type="MULTIPART">
+          <bounds format="PERCENT" symbol="%">
+            <width>100</width>
+            <height>100</height>
+          </bounds>
+          <mpo uid="s64_s65">
+            <actions>
+              <class>tvbroadcast</class>
+              <file>https://bigbang.adin.si/index.php/uploads/index/objects/2/jquerytvbroadcast.js</file>
+              <settings>
+                <param>
+                  <name>mediaInstOptions</name>
+                  <value><![CDATA[null]]></value>
+                </param>
+                <param>
+                  <name>mediaCrop</name>
+                  <value><![CDATA[null]]></value>
+                </param>
+                <param>
+                  <name>mediaOptions</name>
+                  <value><![CDATA["video_driver=vdpau audio_output=hdmi"]]></value>
+                </param>
+                <param>
+                  <name>channelTypingTimeout</name>
+                  <value><![CDATA[3000]]></value>
+                </param>
+                <param>
+                  <name>channelTagTimeout</name>
+                  <value><![CDATA[1500]]></value>
+                </param>
+                <param>
+                  <name>errorTagTimeout</name>
+                  <value><![CDATA[1000]]></value>
+                </param>
+                <param>
+                  <name>errorTagMessage</name>
+                  <value><![CDATA[null]]></value>
+                </param>
+                <param>
+                  <name>channelListHeadTitle</name>
+                  <value><![CDATA[null]]></value>
+                </param>
+                <param>
+                  <name>channelsPerListRow</name>
+                  <value><![CDATA[25]]></value>
+                </param>
+                <param>
+                  <name>pasive</name>
+                  <value><![CDATA[0]]></value>
+                </param>
+                <param>
+                  <name>showOSD</name>
+                  <value><![CDATA[1]]></value>
+                </param>
+                <param>
+                  <name>showChannelList</name>
+                  <value><![CDATA[1]]></value>
+                </param>
+                <param>
+                  <name>aspectRatios</name>
+                  <value><![CDATA[null]]></value>
+                </param>
+                <param>
+                  <name>defaultARatioIndex</name>
+                  <value><![CDATA[0]]></value>
+                </param>
+                <param>
+                  <name>channelOnStart</name>
+                  <value><![CDATA[5]]></value>
+                </param>
+                <param>
+                  <name>channelsFile</name>
+                  <value><![CDATA[null]]></value>
+                </param>
+                <param>
+                  <name>channelsReaderScript</name>
+                  <value>"https://bigbang.adin.si/index.php/uploads/index/objects/2/sdev_channels_reader.php"</value>
+                </param>
+                <param>
+                  <name>tvInterface</name>
+                  <value><![CDATA["dvb"]]></value>
+                </param>
+                <param>
+                  <name>deinterlaceMode</name>
+                  <value><![CDATA[null]]></value>
+                </param>
+                <param>
+                  <name>useMemory</name>
+                  <value><![CDATA[1]]></value>
+                </param>
+                <param>
+                  <name>initReplayTimeout</name>
+                  <value><![CDATA[3]]></value>
+                </param>
+                <param>
+                  <name>checkStateTimeout</name>
+                  <value><![CDATA[3000]]></value>
+                </param>
+                <param>
+                  <name>channelErrorFreq</name>
+                  <value><![CDATA[5]]></value>
+                </param>
+              </settings>
+            </actions>
+            <stylesheet><![CDATA[@charset "utf-8";
+#s64_s65 .media-select {   position: absolute;  top: 1%;  left: 1%;  width: 5%;  height: 5%;  background: #999;  color: #FFF;  font-size: 200%;  padding: 5px;}
+#s64_s65 .error-tag {   position: absolute;  top: 10%;  margin-left: 20%;  margin-right: 20%;  width: 50%;  height: 5%;  background: #999;  color: #FFF;  font-size: 200%;  padding: 5px;}
+#s64_s65 .channel-list {   position: absolute;  top: 2%;  margin-left: 2%;  margin-right: 2%;  width: 95%;  height: 96%;  background: #EEE;  color: #FFF;  font-size: 100%;  padding: 5px;}
+#s64_s65 .chlist-head-title {   position: relative;  margin: 3px;  padding: 3px;  color: #333;}
+#s64_s65 .chlist-body {   position: relative;  margin: 3px;  padding: 3px;  border-radius: 5px;  background: #CCC;  height: 91%;  overflow: hidden;}
+#s64_s65 .chlist-entry-row {   position: relative;  float: left;  width: 11%;  margin-right: 0%;}
+#s64_s65 .chlist-entry {   position: relative;  color: #FFF;  font-size: 70%;  background: #999;  padding: 3px;  margin: 3px;  border-radius: 5px;  overflow: hidden;}
+#s64_s65 .chlist-entry-num {   position: relative;  margin: 2px;  color: #333;}
+#s64_s65 .chlist-entry-text {   margin: 2px;}
+]]></stylesheet>
+          </mpo>
+        </object>
+      </slide>
+    </timesegment>
+    <timesegment id="21" cid="2" cname="MULTIMEDIA" order="3">
+      <length>
+        <from_seconds>-1</from_seconds>
+        <to_seconds>-1</to_seconds>
+      </length>
+      <slide id="82" pltsg="21" seq="83" name="Film - Gremo mi po svoje">
+        <period>65</period>
+        <schedule/>
+        <object type="VIDEO" id="448" sobj="91" date="2014-11-26-09-18-18-273245">
+          <bounds format="PERCENT" symbol="%"/>
+          <filename>https://bigbang.adin.si/index.php/uploads/index/clients/1/slo_movie.mp4</filename>
+        </object>
+      </slide>
+      <slide id="83" pltsg="21" seq="84" name="Risana animacija">
+        <period>155</period>
+        <schedule/>
+        <object type="VIDEO" id="445" sobj="92" date="2014-11-26-09-40-46-172986">
+          <bounds format="PERCENT" symbol="%"/>
+          <filename>https://bigbang.adin.si/index.php/uploads/index/clients/1/cartoon.mp4</filename>
+        </object>
+      </slide>
+      <slide id="84" pltsg="21" seq="85" name="Narava">
+        <period>179</period>
+        <schedule/>
+        <object type="VIDEO" id="446" sobj="93" date="2014-11-26-09-40-46-172986">
+          <bounds format="PERCENT" symbol="%"/>
+          <filename>https://bigbang.adin.si/index.php/uploads/index/clients/1/nature.mp4</filename>
+        </object>
+      </slide>
+      <slide id="85" pltsg="21" seq="86" name="Šport">
+        <period>179</period>
+        <schedule/>
+        <object type="VIDEO" id="447" sobj="94" date="2014-11-26-09-40-46-172986">
+          <bounds format="PERCENT" symbol="%"/>
+          <filename>https://bigbang.adin.si/index.php/uploads/index/clients/1/sports.mp4</filename>
+        </object>
+      </slide>
+    </timesegment>
+    <timesegment id="23" cid="1" cname="PLAYLIST_EDITOR" order="4">
+      <length>
+        <from_seconds>-1</from_seconds>
+        <to_seconds>-1</to_seconds>
+      </length>
+      <slide id="156" pltsg="23" seq="120" name="TV Slovenija 2">
+        <period>150</period>
+        <schedule/>
+        <object id="237" sobj="69" date="2014-11-26-10-47-06-633673" type="MULTIPART">
+          <bounds format="PERCENT" symbol="%">
+            <width>100</width>
+            <height>100</height>
+          </bounds>
+          <mpo uid="s64_s69">
+            <actions>
+              <class>tvbroadcast</class>
+              <file>https://bigbang.adin.si/index.php/uploads/index/objects/2/jquerytvbroadcast.js</file>
+              <settings>
+                <param>
+                  <name>mediaInstOptions</name>
+                  <value><![CDATA[null]]></value>
+                </param>
+                <param>
+                  <name>mediaCrop</name>
+                  <value><![CDATA[null]]></value>
+                </param>
+                <param>
+                  <name>mediaOptions</name>
+                  <value><![CDATA["video_driver=vdpau audio_output=hdmi"]]></value>
+                </param>
+                <param>
+                  <name>channelTypingTimeout</name>
+                  <value><![CDATA[3000]]></value>
+                </param>
+                <param>
+                  <name>channelTagTimeout</name>
+                  <value><![CDATA[1500]]></value>
+                </param>
+                <param>
+                  <name>errorTagTimeout</name>
+                  <value><![CDATA[1000]]></value>
+                </param>
+                <param>
+                  <name>errorTagMessage</name>
+                  <value><![CDATA[null]]></value>
+                </param>
+                <param>
+                  <name>channelListHeadTitle</name>
+                  <value><![CDATA[null]]></value>
+                </param>
+                <param>
+                  <name>channelsPerListRow</name>
+                  <value><![CDATA[25]]></value>
+                </param>
+                <param>
+                  <name>pasive</name>
+                  <value><![CDATA[0]]></value>
+                </param>
+                <param>
+                  <name>showOSD</name>
+                  <value><![CDATA[1]]></value>
+                </param>
+                <param>
+                  <name>showChannelList</name>
+                  <value><![CDATA[1]]></value>
+                </param>
+                <param>
+                  <name>aspectRatios</name>
+                  <value><![CDATA[null]]></value>
+                </param>
+                <param>
+                  <name>defaultARatioIndex</name>
+                  <value><![CDATA[0]]></value>
+                </param>
+                <param>
+                  <name>channelOnStart</name>
+                  <value><![CDATA[2]]></value>
+                </param>
+                <param>
+                  <name>channelsFile</name>
+                  <value><![CDATA[null]]></value>
+                </param>
+                <param>
+                  <name>channelsReaderScript</name>
+                  <value>"https://bigbang.adin.si/index.php/uploads/index/objects/2/sdev_channels_reader.php"</value>
+                </param>
+                <param>
+                  <name>tvInterface</name>
+                  <value><![CDATA["dvb"]]></value>
+                </param>
+                <param>
+                  <name>deinterlaceMode</name>
+                  <value><![CDATA[null]]></value>
+                </param>
+                <param>
+                  <name>useMemory</name>
+                  <value><![CDATA[1]]></value>
+                </param>
+                <param>
+                  <name>initReplayTimeout</name>
+                  <value><![CDATA[3]]></value>
+                </param>
+                <param>
+                  <name>checkStateTimeout</name>
+                  <value><![CDATA[3000]]></value>
+                </param>
+                <param>
+                  <name>channelErrorFreq</name>
+                  <value><![CDATA[5]]></value>
+                </param>
+              </settings>
+            </actions>
+            <stylesheet><![CDATA[@charset "utf-8";
+#s64_s65 .media-select {   position: absolute;  top: 1%;  left: 1%;  width: 5%;  height: 5%;  background: #999;  color: #FFF;  font-size: 200%;  padding: 5px;}
+#s64_s65 .error-tag {   position: absolute;  top: 10%;  margin-left: 20%;  margin-right: 20%;  width: 50%;  height: 5%;  background: #999;  color: #FFF;  font-size: 200%;  padding: 5px;}
+#s64_s65 .channel-list {   position: absolute;  top: 2%;  margin-left: 2%;  margin-right: 2%;  width: 95%;  height: 96%;  background: #EEE;  color: #FFF;  font-size: 100%;  padding: 5px;}
+#s64_s65 .chlist-head-title {   position: relative;  margin: 3px;  padding: 3px;  color: #333;}
+#s64_s65 .chlist-body {   position: relative;  margin: 3px;  padding: 3px;  border-radius: 5px;  background: #CCC;  height: 91%;  overflow: hidden;}
+#s64_s65 .chlist-entry-row {   position: relative;  float: left;  width: 11%;  margin-right: 0%;}
+#s64_s65 .chlist-entry {   position: relative;  color: #FFF;  font-size: 70%;  background: #999;  padding: 3px;  margin: 3px;  border-radius: 5px;  overflow: hidden;}
+#s64_s65 .chlist-entry-num {   position: relative;  margin: 2px;  color: #333;}
+#s64_s65 .chlist-entry-text {   margin: 2px;}
+]]></stylesheet>
+          </mpo>
+        </object>
+      </slide>
+    </timesegment>
+	<timesegment id="24" cid="2" cname="MULTIMEDIA" order="5">
+      <length>
+        <from_seconds>-1</from_seconds>
+        <to_seconds>-1</to_seconds>
+      </length>
+      <slide id="182" pltsg="24" seq="183" name="BigBang akcija">
+        <period>15</period>
+        <schedule/>
+        <object type="IMAGE" id="548" sobj="191" date="2014-11-26-09-18-18-273245">
+          <bounds format="PERCENT" symbol="%"/>
+          <filename>https://bigbang.adin.si/index.php/uploads/index/clients/1/bbakcija.jpg</filename>
+        </object>
+      </slide>
+	</timesegment>
+  </playlist>
+</scenario>

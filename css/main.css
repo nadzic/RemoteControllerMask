@@ -1,0 +1,22 @@
+.container {
+	margin-top: 3%;
+}
+.text {
+	width: 45%;
+	display: inline-block;
+}
+.text span {
+	width: 100%;
+	overflow:hidden;
+	white-space:nowrap;
+	text-overflow: ellipsis;
+	display: block;
+}
+.icon {
+	width: 10%;
+	display: inline-block;
+}
+.time {
+	width: 45%;
+	display: inline-block;
+}
